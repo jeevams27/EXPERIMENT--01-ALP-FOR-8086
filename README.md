@@ -96,10 +96,57 @@ ret
 ## Output :
 ![alt text](image-3.png)
 
+## Programs for logical operations
+## AND alp
+```
+MOV AL,66H;
+MOV BL,77H;
+AND AL,BL
+HLT
+
+ret
+```
+## Output 
+![image](https://github.com/jeevams27/EXPERIMENT--01-ALP-FOR-8086/assets/94284428/3e7ef5e7-33f7-40cf-92c2-e965d1bebb51)
+
+## OR alp
+```
+MOV AL,99H;
+MOV BL,66H;
+OR AL,BL
+HLT
+
+ret 
+```
+## Output
+![image](https://github.com/jeevams27/EXPERIMENT--01-ALP-FOR-8086/assets/94284428/2b0ed42f-b46f-4459-99e2-4abce8eb53e9)
+
+## XOR alp
+```
+MOV AL,85H;
+MOV BL,45H;
+XOR AL,BL
+HLT
+
+ret                                           
+
+```
+## Output
+![image](https://github.com/jeevams27/EXPERIMENT--01-ALP-FOR-8086/assets/94284428/18e10f66-a7f0-4c48-ad18-0d527872da59)
+
+## NOT alp
+```
+MOV AL,38H
+NOT AL
+HLT
+
+ret
+```
+## Output
+![image](https://github.com/jeevams27/EXPERIMENT--01-ALP-FOR-8086/assets/94284428/84b93a84-7bc5-48a0-8c4a-3514870ccf04)
 
 ## Result :
-Thus, a program is executed on ALP for the fundamental arithmetic and logical operations.
-
+ Hence ALP on fundamental arithmetic and logical operations is verified and executed.
 
 
 
